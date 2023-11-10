@@ -166,6 +166,7 @@ body {
   height: 100%;
   -o-object-fit: contain;
   object-fit: contain;
+  background-image: url('../img/svg-bg.png');
 }
 
 .caption-wrapper {
@@ -194,6 +195,7 @@ body {
   width: 3vmin;
   height: 140%;
   background-color: #d6e9eb;
+  background-image: url('../img/pseudo-bg.png');
   -webkit-border-radius: 1.5vmin;
   border-radius: 1.5vmin;
 }
