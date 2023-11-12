@@ -47,8 +47,22 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  color: #d6e9eb;
-  background-color: #3d8a92;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+@media (prefers-color-scheme: light) {
+  .body {
+    color: #d6e9eb;
+    background-color: #3d8a92;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .body {
+    color: #d6e9eb;
+    background-color: #3d8a92;
+  }
 }
 
 .page-wrapper {
@@ -194,10 +208,22 @@ body {
   transform: translate3d(0, -50%, 0);
   width: 3vmin;
   height: 140%;
-  background-color: #d6e9eb;
+  background-color: #000000;
   background-image: url('../img/pseudo-bg.png');
   -webkit-border-radius: 1.5vmin;
   border-radius: 1.5vmin;
+}
+
+@media (prefers-color-scheme: light) {
+  .caption-wrapper::before {
+    background-color: #d6e9eb;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .caption-wrapper::before {
+    background-color: #d6e9eb;
+  }
 }
 
 @media (max-height: 360px),
